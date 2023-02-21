@@ -19,7 +19,32 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(view: View) {
-        Toast.makeText(this, "Fui clicado!", Toast.LENGTH_LONG).show()
+        if (view.id == R.id.button_calculate) calculate()
+    }
+
+    private fun isValid(): Boolean {
+        return (binding.editDistance.text.toString() != ""
+                && binding.editPrice.text.toString() != ""
+                && binding.editAutonomy.text.toString() != ""
+                && binding.editAutonomy.text.toString().toFloat() != 0f)
+    }
+
+    private fun calculate() {
+
+        if (isValid()) {
+
+            val distance = binding.editDistance.text.toString().toFloat()
+            val price = binding.editPrice.text.toString().toFloat()
+            val autonomy = binding.editAutonomy.text.toString().toFloat()
+
+            val totalValue = (distance * price) / autonomy
+
+            binding.textTotalValue.text = String.format("R$ %.2f", totalValue)
+
+        } else {
+            Toast.makeText(this, R.string.validation_fill_all_fields, Toast.LENGTH_LONG).show()
+        }
+
     }
 }
 
