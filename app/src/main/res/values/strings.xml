@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">gasto-combustivel</string>
+    <string name="app_name">Travel Expense</string>
+    <string name="distance">Distance</string>
+    <string name="total_km">total of kilometers</string>
+    <string name="price">Price</string>
+    <string name="price_per_liter">Price per liter</string>
+    <string name="autonomy">Autonomy</string>
+    <string name="kms_per_liter">KMs per liter</string>
+    <string name="total_spend">Your total expense will be:</string>
+    <string name="total_value">R$ 0</string>
+    <string name="calculate">Calculate</string>
 </resources>
