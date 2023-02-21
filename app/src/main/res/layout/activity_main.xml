@@ -12,7 +12,7 @@
         android:id="@+id/edit_distance"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:autofillHints="no"
         android:hint="@string/distance"
         android:inputType="number" />

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Travel Expense</string>
+    <string name="app_name">Fuel Calculator</string>
     <string name="distance">Distance</string>
     <string name="total_km">total of kilometers</string>
     <string name="price">Price</string>

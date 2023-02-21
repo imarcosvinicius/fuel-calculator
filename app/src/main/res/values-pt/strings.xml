@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Gasto Viagem</string>
+    <string name="app_name">calculadora de combustível</string>
     <string name="distance">Distância</string>
     <string name="total_km">Total de quilometros</string>
     <string name="price">Preço</string>
